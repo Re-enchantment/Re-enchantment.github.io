@@ -9,11 +9,19 @@ website:
       - href: index.qmd
         text: Home
       - href: project.qmd
-        text: The project
+        text: The Project
+      - href: peatlands.qmd
+        text: Peatlands and Torbiere
+      - href: languagecology.qmd
+        text: Language as Ecology
+      - href: blog.qmd
+        text: Blog and News
+      - href: outputs.qmd
+        text: Project Outputs
   page-footer:
     right:
     - text: "<img src='files/RILogo.png' alt='Research Ireland' height='30'>"
-    
+
 format:
   html:
     theme:
