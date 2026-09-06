@@ -8,15 +8,16 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: project.qmd
+        text: The project
   page-footer:
     right:
     - text: "<img src='files/RILogo.png' alt='Research Ireland' height='30'>"
-
+    
 format:
   html:
     theme:
-      - vapor
+      - brite.scss
       - brand
     css: styles.css
     toc: true
