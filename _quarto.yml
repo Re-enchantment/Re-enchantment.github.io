@@ -9,6 +9,9 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+  page-footer:
+    right:
+    - text: "<img src='files/RILogo.png' alt='Research Ireland' height='30'>"
 
 format:
   html:
