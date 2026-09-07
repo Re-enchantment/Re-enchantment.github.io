@@ -1,3 +1,30 @@
 ---
 title: "Project Outputs"
 ---
+
+This fellowship is designed to produce work that speaks to academic, educational, and public audiences across Ireland, Italy, and beyond. Outputs fall into three broad strands: scholarly publications, creative and community materials, and open digital resources.
+
+### Academic Outputs
+
+A peer-reviewed journal article on econarratives of grief and revival in the Irish context.
+
+A monograph exploring transcultural storytelling as a form of ecological and linguistic solidarity between Irish and Emilian communities, situated within decolonial sociolinguistics.
+
+Presentations at international conferences, including the International Ecolinguistics Conference, the BAAL Conference, the International Conference on Minoritised Languages (Bolzano), and the International Society for Ethnology and Folklore.
+
+### Creative and Community Outputs
+
+A bilingual children's illustrated book (Irish and Emilian, with English and Italian translations), co-created with participating school pupils in Donegal and Modena.
+A set of "lost words" cards, inspired by local flora, fauna, and place-names, designed for use in schools and community settings in both regions.
+
+A pen-pal exchange between partner schools in Gaoth Dobhair and Modena, fostering direct connection between young Irish and Emilian speakers.
+
+A Scholar–Community Symposium, held alternately in Gaoth Dobhair and Modena, bringing together researchers, artists, and community members to share the project's econarratives through performance, poetry, and dialogue.
+
+### Open Digital Resources
+
+An open-access bilingual digital repository of co-created stories, recordings, images, and artefacts, curated with community consent and hosted via the Open Science Framework.
+An interactive GIS map, developed with UCD's Decoding Hidden Heritages initiative, visualising how myths, place-names, and language expressions cluster across the two peatland regions.
+A project website and social media presence, sharing progress, events, and findings as the project develops.
+
+All non-sensitive data, code, and documentation will be made openly accessible under Creative Commons licensing, and preserved long-term through Zenodo and a trusted disciplinary archive.
