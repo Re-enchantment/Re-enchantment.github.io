@@ -53,45 +53,6 @@ leaflet(
     )
   ) |>
 
-  # Reggio Emilia
-  addLabelOnlyMarkers(
-    lng = 10.630,
-    lat = 44.698,
-    label = "Reggio Emilia",
-    labelOptions = labelOptions(
-      noHide = TRUE,
-      direction = "right",
-      textOnly = TRUE,
-      className = "city-label"
-    )
-  ) |>
-
-  # Modena
-  addLabelOnlyMarkers(
-    lng = 10.925,
-    lat = 44.647,
-    label = "Modena",
-    labelOptions = labelOptions(
-      noHide = TRUE,
-      direction = "right",
-      textOnly = TRUE,
-      className = "city-label"
-    )
-  ) |>
-
-  # Bologna
-  addLabelOnlyMarkers(
-    lng = 11.343,
-    lat = 44.494,
-    label = "Bologna",
-    labelOptions = labelOptions(
-      noHide = TRUE,
-      direction = "right",
-      textOnly = TRUE,
-      className = "city-label"
-    )
-  ) |>
-
   fitBounds(
     lng1 = 10.35,
     lat1 = 44.05,
