@@ -1,3 +1,207 @@
 ---
 title: "Peatlands and Torbiere"
 ---
+
+
+## Alto Appennino Modenese
+
+```{r}
+#| echo: false
+
+library(leaflet)
+
+leaflet(
+  options = leafletOptions(
+    zoomControl = FALSE
+  )
+) |>
+
+  addTiles(
+    attribution = "&copy; OpenStreetMap contributors"
+  ) |>
+
+  # Approximate footprint of the Alto Appennino Modenese
+  addPolygons(
+    lng = c(
+      10.48, 10.50, 10.54, 10.58, 10.62,
+      10.67, 10.72, 10.77, 10.82, 10.83,
+      10.81, 10.77, 10.73, 10.68, 10.63,
+      10.58, 10.53, 10.49
+    ),
+    lat = c(
+      44.23, 44.24, 44.22, 44.20, 44.21,
+      44.23, 44.23, 44.22, 44.20, 44.18,
+      44.16, 44.14, 44.13, 44.12, 44.12,
+      44.13, 44.15, 44.18
+    ),
+    color = "#163B32",
+    weight = 2,
+    fillColor = "#DCD0FF",
+    fillOpacity = 0.35
+  ) |>
+
+  # Park label
+  addLabelOnlyMarkers(
+    lng = 10.66,
+    lat = 44.18,
+    label = "Parco dell'Alto Appennino Modenese",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "center",
+      textOnly = TRUE,
+      className = "study-label"
+    )
+  ) |>
+
+  # Reggio Emilia
+  addLabelOnlyMarkers(
+    lng = 10.630,
+    lat = 44.698,
+    label = "Reggio Emilia",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "right",
+      textOnly = TRUE,
+      className = "city-label"
+    )
+  ) |>
+
+  # Modena
+  addLabelOnlyMarkers(
+    lng = 10.925,
+    lat = 44.647,
+    label = "Modena",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "right",
+      textOnly = TRUE,
+      className = "city-label"
+    )
+  ) |>
+
+  # Bologna
+  addLabelOnlyMarkers(
+    lng = 11.343,
+    lat = 44.494,
+    label = "Bologna",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "right",
+      textOnly = TRUE,
+      className = "city-label"
+    )
+  ) |>
+
+  fitBounds(
+    lng1 = 10.35,
+    lat1 = 44.05,
+    lng2 = 11.55,
+    lat2 = 44.82
+  ) |>
+
+  addScaleBar(
+    position = "bottomleft",
+    options = scaleBarOptions(
+      imperial = FALSE
+    )
+  )
+```
+## Corveen Bog, County Donegal
+
+```{r}
+#| echo: false
+
+library(leaflet)
+
+leaflet(
+  options = leafletOptions(
+    zoomControl = FALSE
+  )
+) |>
+
+  addTiles(
+    attribution = "&copy; OpenStreetMap contributors"
+  ) |>
+
+  # Approximate footprint of Corveen Bog
+  addPolygons(
+    lng = c(
+      -8.25, -8.23, -8.20, -8.17, -8.15,
+      -8.14, -8.16, -8.19, -8.22, -8.25
+    ),
+    lat = c(
+      55.09, 55.11, 55.12, 55.11, 55.09,
+      55.07, 55.06, 55.07, 55.08, 55.09
+    ),
+    color = "#163B32",
+    weight = 2,
+    fillColor = "#DCD0FF",
+    fillOpacity = 0.35
+  ) |>
+
+  # Corveen Bog label
+  addLabelOnlyMarkers(
+    lng = -8.205,
+    lat = 55.091,
+    label = "Corveen Bog",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "center",
+      textOnly = TRUE,
+      className = "study-label"
+    )
+  ) |>
+
+  # Gortahork
+  addLabelOnlyMarkers(
+    lng = -8.225,
+    lat = 55.065,
+    label = "Gortahork",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "bottom",
+      textOnly = TRUE,
+      className = "city-label"
+    )
+  ) |>
+
+  # Bunbeg
+  addLabelOnlyMarkers(
+    lng = -8.300,
+    lat = 55.070,
+    label = "Bunbeg",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "left",
+      textOnly = TRUE,
+      className = "city-label"
+    )
+  ) |>
+
+  # Donegal
+  addLabelOnlyMarkers(
+    lng = -8.110,
+    lat = 54.654,
+    label = "Donegal",
+    labelOptions = labelOptions(
+      noHide = TRUE,
+      direction = "right",
+      textOnly = TRUE,
+      className = "city-label"
+    )
+  ) |>
+
+  fitBounds(
+    lng1 = -8.45,
+    lat1 = 54.95,
+    lng2 = -7.90,
+    lat2 = 55.20
+  ) |>
+
+  addScaleBar(
+    position = "bottomleft",
+    options = scaleBarOptions(
+      imperial = FALSE
+    )
+  )
+```
