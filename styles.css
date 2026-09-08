@@ -14,3 +14,32 @@
   max-height: 30px;
 }
 
+.wallpaper-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+
+  background-image: url("files/wallpaper.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+
+  pointer-events: none;
+  z-index: 0;
+}
+
+body {
+  margin-left: 280px;
+}
+
+@media (max-width: 900px) {
+  .wallpaper-left {
+    display: none;
+  }
+
+  body {
+    margin-left: 0;
+  }
+}
