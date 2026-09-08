@@ -43,3 +43,8 @@ body {
     margin-left: 0;
   }
 }
+
+html,
+body {
+  background: #F7F5F0;
+}
