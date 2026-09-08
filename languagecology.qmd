@@ -1,23 +1,8 @@
 ---
 title: "Language as Ecology"
 ---
-<div class="research-nav">
 
-  <a href="#linguistics-language" class="research-nav-item">
-    Linguistics &amp; Language
-  </a>
-
-  <a href="#ecology-geography" class="research-nav-item">
-    Ecology &amp; Geography
-  </a>
-
-  <a href="#interdisciplinary" class="research-nav-item">
-    Interdisciplinary
-  </a>
-
-</div>
-
-### Linguistics & Language {#linguistics-language}
+### Linguistics & Language 
 Research exploring language diversity, language change, linguistic knowledge, language loss, revitalisation and the relationships between language and place.
 
 ::: {.publication-card}
@@ -183,7 +168,7 @@ This article foregrounds the deep connections between **climate change and langu
 
 :::
 
-### Ecology, Geography & Biocultural Diversity {#ecology-geography}
+### Ecology, Geography & Biocultural Diversity 
 Research examining ecosystems, landscapes, biodiversity, biocultural diversity and the spatial relationships between human cultures and the more-than-human world.
 
 ::: {.publication-card}
@@ -218,7 +203,7 @@ The only common driver of biocultural, linguistic and biological diversity threa
 :::
 
 
-### Interdisciplinary Perspectives {#interdisciplinary}
+### Interdisciplinary Perspectives 
 Work bringing linguistic, ecological, geographical, anthropological and cultural perspectives into conversation.
 
 ::: {.publication-card}
