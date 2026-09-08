@@ -19,6 +19,8 @@ website:
       - href: outputs.qmd
         text: Project Outputs
   page-footer:
+    left: 
+    - text: "A research project funded by the Government of Ireland Postdoctoral Fellowship Programme. Hosted at University College Dublin. &copy; 2026 Re-enchanting Peatlands"
     right:
     - text: "<img src='files/RILogo.png' alt='Research Ireland' height='30'>"
 
