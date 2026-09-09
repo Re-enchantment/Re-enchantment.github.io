@@ -1,0 +1,273 @@
+/* css styles */
+
+.nav-footer {
+  background-color: #163B32;
+  color: #B8A9D6;
+}
+
+.nav-footer .footer-items {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.nav-footer img {
+  max-height: 30px;
+}
+
+.nav-footer a {
+  color: #B8A9D6;
+}
+
+.nav-footer a:hover {
+  color: #B8A9D6;
+}
+
+.wallpaper-left {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 260px;
+  height: 100vh;
+
+  background-image: url("files/wallpaper.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: contain;
+
+  pointer-events: none;
+  z-index: 0;
+}
+
+body {
+  margin-left: 280px;
+}
+
+@media (max-width: 900px) {
+  .wallpaper-left {
+    display: none;
+  }
+
+  body {
+    margin-left: 0;
+  }
+}
+
+html,
+body {
+  background: #F7F5F0;
+}
+
+
+/* =========================================================
+   LANGUAGE AS ECOLOGY — PUBLICATION CARDS
+   ========================================================= */
+
+.publication-card {
+  background: #ffffff;
+  border: 1px solid rgba(62, 90, 69, 0.18);
+  border-left: 5px solid #3E5A45;
+  border-radius: 12px;
+
+  padding: 2rem 2.2rem;
+  margin: 2rem 0 3rem 0;
+
+  box-shadow: 0 4px 14px rgba(62, 90, 69, 0.08);
+}
+
+/* Publication title */
+
+.publication-card h3 {
+  color: #3E5A45;
+  margin-top: 0;
+  margin-bottom: 0.8rem;
+  font-size: 1.35rem;
+  line-height: 1.35;
+}
+
+/* APA citation */
+
+.publication-meta {
+  color: #555;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.publication-meta a {
+  color: #7C6A9C;
+  font-weight: 600;
+}
+
+/* "Why it matters" box */
+
+.research-note {
+  background: #F7F5F0;
+  border-left: 4px solid #7C6A9C;
+  border-radius: 6px;
+
+  padding: 1rem 1.3rem;
+  margin: 1.5rem 0;
+
+  font-size: 0.95rem;
+}
+
+.research-note strong {
+  color: #7C6A9C;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: 0.78rem;
+}
+
+/* Abstract */
+
+.publication-card details {
+  margin-top: 1.5rem;
+  border-top: 1px solid rgba(62, 90, 69, 0.15);
+  padding-top: 1rem;
+}
+
+.publication-card summary {
+  color: #3E5A45;
+  font-weight: 600;
+  cursor: pointer;
+  letter-spacing: 0.03em;
+}
+
+.publication-card details p {
+  margin-top: 1rem;
+  line-height: 1.7;
+}
+
+/* Category label */
+
+.publication-category {
+  display: inline-block;
+
+  color: #7C6A9C;
+  border: 1px solid rgba(124, 106, 156, 0.35);
+  border-radius: 20px;
+
+  padding: 0.25rem 0.7rem;
+  margin-bottom: 1rem;
+
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* Mobile */
+
+@media (max-width: 700px) {
+  .publication-card {
+    padding: 1.4rem;
+    margin: 1.5rem 0 2rem 0;
+  }
+
+  .publication-card h3 {
+    font-size: 1.15rem;
+  }
+}
+
+/* =========================================================
+   RESEARCH SECTION NAVIGATION
+   ========================================================= */
+
+.research-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+
+  margin: 2rem 0 3rem 0;
+}
+
+.research-nav-item {
+  display: inline-block;
+
+  padding: 0.7rem 1.2rem;
+
+  background-color: #ffffff;
+  color: #3E5A45;
+
+  border: 1px solid rgba(62, 90, 69, 0.3);
+  border-radius: 25px;
+
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.9rem;
+
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.research-nav-item:hover {
+  background-color: #3E5A45;
+  color: #ffffff;
+
+  transform: translateY(-2px);
+
+  box-shadow: 0 4px 10px rgba(62, 90, 69, 0.15);
+
+  text-decoration: none;
+}
+
+/* Make the destination headings scroll nicely
+   beneath the fixed navbar */
+
+#linguistics-language,
+#ecology-geography,
+#interdisciplinary {
+  scroll-margin-top: 90px;
+}
+
+/* =========================================================
+   BOOK PUBLICATIONS
+   ========================================================= */
+
+.book-card {
+  display: flex;
+  gap: 1.8rem;
+  align-items: flex-start;
+  margin-bottom: 1.5rem;
+}
+
+.book-cover {
+  flex: 0 0 130px;
+}
+
+.book-cover img {
+  display: block;
+  width: 130px;
+  height: auto;
+
+  border-radius: 4px;
+
+  box-shadow: 0 5px 12px rgba(62, 90, 69, 0.18);
+}
+
+.book-details {
+  flex: 1;
+}
+
+.book-details h3 {
+  margin-top: 0;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .book-card {
+    flex-direction: column;
+  }
+
+  .book-cover {
+    flex-basis: auto;
+  }
+
+  .book-cover img {
+    width: 150px;
+  }
+}
