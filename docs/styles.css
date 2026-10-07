@@ -271,3 +271,212 @@ body {
     width: 150px;
   }
 }
+
+/* =========================================================
+   BLOG — FIELD NOTES
+   ========================================================= */
+
+/* ---------- Blog landing page ---------- */
+
+.blog-intro {
+  max-width: 720px;
+  margin: 1.5rem 0 3.5rem 0;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid rgba(22, 59, 50, 0.25);
+}
+
+.blog-intro h2 {
+  color: #163B32;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 0.8rem;
+}
+
+.blog-intro p {
+  max-width: 620px;
+  color: #3E5A45;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 0;
+}
+
+
+/* ---------- Quarto blog listing ---------- */
+
+/* Remove the conventional card-like appearance */
+
+.quarto-listing-default .list {
+  border-top: 0;
+}
+
+.quarto-listing-default .quarto-post {
+  padding: 1.8rem 0 2rem 0;
+  border-bottom: 1px solid rgba(22, 59, 50, 0.18);
+}
+
+/* Post titles */
+
+.quarto-listing-default .quarto-post .listing-title {
+  color: #163B32;
+  font-size: 1.35rem;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.quarto-listing-default .quarto-post .listing-title a {
+  color: #163B32;
+  text-decoration: none;
+}
+
+.quarto-listing-default .quarto-post .listing-title a:hover {
+  color: #7C6A9C;
+}
+
+/* Description */
+
+.quarto-listing-default .quarto-post .listing-description {
+  color: #3E5A45;
+  font-size: 0.98rem;
+  line-height: 1.65;
+  max-width: 680px;
+}
+
+/* Date and metadata */
+
+.quarto-listing-default .quarto-post .listing-date {
+  color: #7C6A9C;
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+/* Categories */
+
+.quarto-listing-category .category,
+.quarto-category {
+  color: #7C6A9C;
+  border-color: rgba(124, 106, 156, 0.35);
+  border-radius: 20px;
+}
+
+
+/* =========================================================
+   INDIVIDUAL BLOG POSTS
+   ========================================================= */
+
+/* Comfortable reading width */
+
+body.quarto-blog-post main.content {
+  max-width: 780px;
+}
+
+/* Small editorial label above the opening */
+
+.post-kicker {
+  color: #7C6A9C;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  margin: 0.5rem 0 1.2rem 0;
+}
+
+/* Opening/deck */
+
+.post-opening {
+  max-width: 680px;
+  color: #3E5A45;
+  font-size: 1.15rem;
+  line-height: 1.65;
+  margin-bottom: 2rem;
+}
+
+/* Article typography */
+
+body.quarto-blog-post main.content p {
+  font-size: 1.05rem;
+  line-height: 1.82;
+  margin-bottom: 1.35rem;
+}
+
+/* Give the article title more presence */
+
+body.quarto-blog-post #title-block-header .title {
+  color: #163B32;
+  font-size: clamp(2.2rem, 5vw, 3.4rem);
+  font-weight: 500;
+  line-height: 1.08;
+  letter-spacing: -0.02em;
+}
+
+/* Quarto metadata */
+
+body.quarto-blog-post #title-block-header .quarto-title-meta {
+  color: #7C6A9C;
+  font-size: 0.8rem;
+}
+
+/* Horizontal rules become quiet editorial dividers */
+
+body.quarto-blog-post main.content hr {
+  border: 0;
+  border-top: 1px solid rgba(22, 59, 50, 0.22);
+  opacity: 1;
+  margin: 2.5rem 0;
+}
+
+
+/* ---------- Pull quotes ---------- */
+
+.field-note-quote {
+  margin: 3rem 0;
+  padding: 0.5rem 0 0.5rem 1.6rem;
+  border-left: 3px solid #7C6A9C;
+
+  color: #3E5A45;
+  font-size: 1.3rem;
+  line-height: 1.55;
+  font-style: italic;
+}
+
+
+/* ---------- Optional location / transition marker ---------- */
+
+.field-note-marker {
+  margin: 3rem 0 1.5rem 0;
+
+  color: #7C6A9C;
+  font-size: 0.74rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+
+/* ---------- Mobile ---------- */
+
+@media (max-width: 700px) {
+
+  .blog-intro {
+    margin-bottom: 2.5rem;
+  }
+
+  .blog-intro h2 {
+    font-size: 1.5rem;
+  }
+
+  body.quarto-blog-post main.content p {
+    font-size: 1rem;
+    line-height: 1.75;
+  }
+
+  .post-opening {
+    font-size: 1.05rem;
+  }
+
+  .field-note-quote {
+    margin: 2.2rem 0;
+    padding-left: 1rem;
+    font-size: 1.15rem;
+  }
+}

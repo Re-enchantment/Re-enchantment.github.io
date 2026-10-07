@@ -1,3 +1,20 @@
 ---
 title: "Blog and News"
+listing:
+  contents: posts
+  sort: "date desc"
+  type: default
+  fields: [date, title, description, categories]
+  date-format: "D MMMM YYYY"
+  categories: true
+  feed: true
+  page-size: 10
+toc: false
+page-layout: article
 ---
+
+::: {.blog-intro}
+## Field notes from Re-enchantment
+
+Travels, encounters, research notes and reflections from a project about peatlands, language and the stories that connect them.
+:::
